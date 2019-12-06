@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DRAIAM" parallel="tests" thread-count="5">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+	
+	<!-- Added DRA test for the Sanity production job. --> 
+    <test name="DRAIAM001">
+		<classes>
+			<class name="draiam.DRAIAM001"></class>
+		</classes>
+	</test>
+	<test name="DRAIAM0010">
+		<classes>
+			<class name="draiam.DRAIAM0010"></class>
+	</classes>
+	</test>
+	<test name="DRAIAM0011">
+		<classes>
+			<class name="draiam.DRAIAM0011"></class>
+		</classes>
+	</test>
+	<test name="DRAIAM0013">
+		<classes>
+			<class name="draiam.DRAIAM0013"></class>
+		</classes>
+	</test>
+	<test name="DRAIAM101">
+		<classes>
+			<class name="draiam.DRAIAM101"></class>
+		</classes>
+	</test>
+</suite>

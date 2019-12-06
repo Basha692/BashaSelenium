@@ -1,0 +1,75 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Watchlist" parallel="tests" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<parameter name="username" value="user1testautomation@gmail.com" />
+	<parameter name="password" value="Neon@123" />
+	<parameter name="articleName" value="biology" />
+	<parameter name="patentName" value="Percutaneous placement valve stent" />
+	<parameter name="postName" value="Unique Post for Automation" />
+	<parameter name="completeArticle" value="Schizophrenia and drug delivery systems"></parameter>
+	<parameter name="addComments" value="Testing Comments"></parameter>
+	<parameter name="article" value="Biology"></parameter>
+	
+	
+	<!-- Watchlist test cases -->
+
+	<test name="Watchlist004">
+		<classes>
+			<class name="watchlist.Watchlist004"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist005">
+		<classes>
+			<class name="watchlist.Watchlist005"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist006">
+		<classes>
+			<class name="watchlist.Watchlist006"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist007">
+		<classes>
+			<class name="watchlist.Watchlist007"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist014">
+		<classes>
+			<class name="watchlist.Watchlist014"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist015">
+		<classes>
+			<class name="watchlist.Watchlist015"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist018">
+		<classes>
+			<class name="watchlist.Watchlist018"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist019">
+		<classes>
+			<class name="watchlist.Watchlist019"></class>
+		</classes>
+	</test>
+
+	<test name="Watchlist022">
+		<classes>
+			<class name="watchlist.Watchlist022"></class>
+		</classes>
+	</test>
+
+</suite>

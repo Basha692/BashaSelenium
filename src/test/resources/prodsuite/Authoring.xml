@@ -1,0 +1,161 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Authoring" parallel="tests" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<parameter name="username" value="user1testautomation@gmail.com" />
+	<parameter name="password" value="Neon@123" />
+	<parameter name="articleName" value="biology" />
+	<parameter name="patentName" value="Percutaneous placement valve stent" />
+	<parameter name="postName" value="Unique Post for Automation" />
+	<parameter name="completeArticle" value="Schizophrenia and drug delivery systems"></parameter>
+	<parameter name="addComments" value="Testing Comments"></parameter>
+	<parameter name="article" value="Biology"></parameter>
+	
+	
+	<test name="Authoring43">
+		<classes>
+			<class name="Authoring.Authoring43"></class>
+		</classes>
+	</test>
+
+	<test name="Authoring41">
+		<classes>
+			<class name="Authoring.Authoring41"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring47">
+		<classes>
+			<class name="Authoring.Authoring47"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring44">
+		<classes>
+			<class name="Authoring.Authoring44"></class>
+		</classes>
+	</test>
+
+	<test name="Authoring8">
+		<classes>
+			<class name="Authoring.Authoring8"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring9">
+		<classes>
+			<class name="Authoring.Authoring9"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring10">
+		<parameter name="username" value="LOGINUSERNAME1" />
+		<parameter name="password" value="LOGINPASSWORD1" />
+		<classes>
+			<class name="Authoring.Authoring10"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring11">
+		<parameter name="tusername" value="testing.prasadreddy@gmail.com" />
+		<parameter name="tpassword" value="likhithreddy@123" />
+		<classes>
+			<class name="Authoring.Authoring11"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring12">
+		<parameter name="liusername" value="testing.prasadreddy@gmail.com" />
+		<parameter name="lipassword" value="Apple@123" />
+		<classes>
+			<class name="Authoring.Authoring12"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring13">
+		<parameter name="fbusername" value="test_wnqvjum_user@tfbnw.net" />
+        <parameter name="fbpassword" value="auth123*" />
+		<classes>
+			<class name="Authoring.Authoring13"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring52">
+		<parameter name="fbusername" value="test_wnqvjum_user@tfbnw.net" />
+        <parameter name="fbpassword" value="auth123*" />
+		<classes>
+			<class name="Authoring.Authoring52"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring53">
+		<parameter name="liusername" value="testing.prasadreddy@gmail.com" />
+		<parameter name="lipassword" value="Apple@123" />
+		<classes>
+			<class name="Authoring.Authoring53"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring54">
+		<parameter name="tusername" value="testing.prasadreddy@gmail.com" />
+		<parameter name="tpassword" value="likhithreddy@123" />
+		<classes>
+			<class name="Authoring.Authoring54"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring49">
+		<classes>
+			<class name="Authoring.Authoring49"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Authoring21">
+		<classes>
+			<class name="Authoring.Authoring21"></class>
+		</classes>	
+	</test>
+	
+	<test name="Authoring71">
+		<classes>
+			<class name="Authoring.Authoring71"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring72">
+		<classes>
+			<class name="Authoring.Authoring72"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring73">
+		<classes>
+			<class name="Authoring.Authoring73"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring74">
+		<classes>
+			<class name="Authoring.Authoring74"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Authoring75">
+		<classes>
+			<class name="Authoring.Authoring75"></class>
+		</classes>
+	</test>
+	
+	<test name="Authoring76">
+		<classes>
+			<class name="Authoring.Authoring76"></class>
+		</classes>
+	</test>
+	
+</suite>

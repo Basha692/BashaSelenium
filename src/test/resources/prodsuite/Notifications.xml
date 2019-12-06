@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- As per framework adjustments giving the suite name -->
+<suite name="Sanity suite" parallel="tests" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<parameter name="username" value="user1testautomation@gmail.com" />
+	<parameter name="password" value="Neon@123" />
+	<parameter name="articleName" value="biology" />
+	<parameter name="patentName" value="Percutaneous placement valve stent" />
+	<parameter name="postName" value="Unique Post for Automation" />
+	<parameter name="completeArticle" value="Schizophrenia and drug delivery systems"></parameter>
+	<parameter name="addComments" value="Testing Comments"></parameter>
+	<parameter name="article" value="Biology"></parameter>
+	
+	
+	<test name="Test F11">
+		<classes>
+			<class name="notifications.Notifications0011"></class>
+		</classes>
+	</test>
+
+
+	<test name="Test F2">
+		<classes>
+			<class name="notifications.Notifications0002"></class>
+		</classes>
+	</test>
+
+	<test name="Test F9">
+		<classes>
+			<class name="notifications.Notifications0009"></class>
+		</classes>
+	</test>
+
+	<test name="Test F10">
+		<classes>
+			<class name="notifications.Notifications0010"></class>
+		</classes>
+	</test>
+	
+	<test name="Test F12">
+		<classes>
+			<class name="notifications.Notifications0012"></class>
+		</classes>
+	</test>
+	
+	<test name="Test F13">
+		<classes>
+			<class name="notifications.Notifications0013"></class>
+		</classes>
+	</test>
+	
+</suite>

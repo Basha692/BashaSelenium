@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanityTestcases">
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+	
+	<suite-files>
+		<suite-file path="./DRAIAM.xml" />
+		<suite-file path="./ENWIAM.xml" />
+	</suite-files>
+	
+</suite>

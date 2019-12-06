@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IAM" parallel="tests" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<parameter name="username" value="user1testautomation@gmail.com" />
+	<parameter name="password" value="Neon@123" />
+	<parameter name="articleName" value="biology" />
+	<parameter name="patentName" value="Percutaneous placement valve stent" />
+	<parameter name="postName" value="Unique Post for Automation" />
+	<parameter name="completeArticle" value="Schizophrenia and drug delivery systems"></parameter>
+	<parameter name="addComments" value="Testing Comments"></parameter>
+	<parameter name="article" value="Biology"></parameter>
+	
+	
+	 <!-- IAM test cases -->
+	 <test name="IAM002">
+		<classes>
+			<class name="iam.IAM002"></class>
+		</classes>
+	</test>
+
+	<test name="IAM004">
+		<classes>
+			<class name="iam.IAM004"></class>
+		</classes>
+	</test>
+
+	<test name="IAM021">
+		<classes>
+			<class name="iam.IAM021"></class>
+		</classes>
+	</test>
+
+</suite>

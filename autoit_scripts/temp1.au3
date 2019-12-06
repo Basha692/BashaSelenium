@@ -1,0 +1,10 @@
+Send("{LEFT}")
+Send("{ENTER}")
+Sleep(1000)
+Send("{ENTER}")
+Sleep(1000)
+Send("{LEFT}")
+Send("{ENTER}")
+Sleep(1000)
+Send("{ENTER}")
+Exit

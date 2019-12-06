@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite">
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+	<suite-files>
+		<suite-file path="./WAT.xml" />
+		<suite-file path="./WATIAM.xml" />
+	</suite-files>
+</suite>

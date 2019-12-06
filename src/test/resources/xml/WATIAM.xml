@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="WATIAM" parallel="tests" thread-count="15">
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<test name="WAT_Login" preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM001"></class>
+		</classes>
+	</test>
+
+	<test name="Check_WAT_Application_Name" preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM002"></class>
+		</classes>
+	</test>
+
+	<test name="Check_For_Wat_Contract_Email_Id" preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM003"></class>
+		</classes>
+	</test>
+
+	<test name="Check_For_Market_Module_In_Wat_App_Login_Page"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM004"></class>
+		</classes>
+	</test>
+
+	<test name="TermsOfUser_PrivacyStatements_In_Wat_App_Login_Page"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM005"></class>
+		</classes>
+	</test>
+	<test name="Check_Forgot_Password_Link_In_WAT_App_SingIn_Page"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM006"></class>
+		</classes>
+	</test>
+	<test name="Wrong_Format_Email_Validation" preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM007"></class>
+		</classes>
+	</test>
+
+	<test name="Cehck_Invalied_Credentails_Error_Message"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM008"></class>
+		</classes>
+	</test>
+
+	<test name="Cehck_Error_Messages_Without_Enter_Email_And_Password"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM009"></class>
+		</classes>
+	</test>
+
+	<test name="Check_For_Locked_User_Error_Message" preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM010"></class>
+		</classes>
+	</test>
+
+	<test name="Check_For_Suspended_User_Error_Message"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM011"></class>
+		</classes>
+	</test>
+	
+	<test name="Forgot_Password"
+		preserve-order="true">
+		<classes>
+			<class name="watiam.WATIAM012"></class>
+		</classes>
+	</test>
+
+</suite>
+

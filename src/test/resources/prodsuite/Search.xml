@@ -1,0 +1,206 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search" parallel="tests" thread-count="10">
+
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+	</listeners>
+
+	<parameter name="username" value="user1testautomation@gmail.com" />
+	<parameter name="password" value="Neon@123" />
+	<parameter name="articleName" value="biology" />
+	<parameter name="patentName" value="Percutaneous placement valve stent" />
+	<parameter name="postName" value="Unique Post for Automation" />
+	<parameter name="completeArticle" value="Schizophrenia and drug delivery systems"></parameter>
+	<parameter name="addComments" value="Testing Comments"></parameter>
+	<parameter name="article" value="Biology"></parameter>
+	
+	<test name="Search2">
+		<classes>
+			<class name="search.Search2"></class>
+		</classes>
+	</test>
+
+	<test name="Search3">
+		<classes>
+			<class name="search.Search3"></class>
+		</classes>
+	</test>
+
+	<test name="Search58">
+		<classes>
+			<class name="search.Search58"></class>
+		</classes>
+	</test>
+
+	<test name="Search49">
+		<classes>
+			<class name="search.Search49"></class>
+		</classes>
+	</test>
+
+	<test name="Search32">
+		<classes>
+			<class name="search.Search32"></class>
+		</classes>
+	</test>
+
+	<test name="Search81">
+		<classes>
+			<class name="search.Search81"></class>
+		</classes>
+	</test>
+
+	<test name="Search97">
+		<classes>
+			<class name="search.Search97"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search54">
+		<classes>
+			<class name="search.Search54"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search39">
+		<classes>
+			<class name="search.Search39"></class>
+		</classes>
+	</test>
+
+	<test name="Search40">
+		<classes>
+			<class name="search.Search40"></class>
+		</classes>
+	</test>
+
+	<test name="Search70">
+		<classes>
+			<class name="search.Search70"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search55">
+		<classes>
+			<class name="search.Search55"></class>
+		</classes>
+	</test>
+
+
+	 <test name="Search36">
+		<classes>
+			<class name="search.Search36"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search91">
+		<classes>
+			<class name="search.Search91"></class>
+		</classes>
+	</test>
+
+	<test name="Search109">
+		<classes>
+			<class name="search.Search109"></class>
+		</classes>
+	</test>
+
+	<test name="Search71">
+		<classes>
+			<class name="search.Search71"></class>
+		</classes>
+	</test>
+
+	<test name="Search89">
+		<classes>
+			<class name="search.Search89"></class>
+		</classes>
+	</test>
+
+	<test name="Search56">
+		<classes>
+			<class name="search.Search56"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search106">
+		<classes>
+			<class name="search.Search106"></class>
+		</classes>
+	</test>
+
+	<test name="Search44">
+		<classes>
+			<class name="search.Search44"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search57">
+		<classes>
+			<class name="search.Search57"></class>
+		</classes>
+	</test>
+
+	<test name="Search99">
+		<classes>
+			<class name="search.Search99"></class>
+		</classes>
+	</test>
+
+
+	<test name="Search123">
+		<classes>
+			<class name="search.Search123"></class>
+		</classes>
+	</test>
+
+	<test name="Search73">
+		<classes>
+			<class name="search.Search73"></class>
+		</classes>
+	</test>
+
+	<test name="Search66">
+		<classes>
+			<class name="search.Search66"></class>
+		</classes>
+	</test>
+
+	<test name="Search87">
+		<classes>
+			<class name="search.Search87"></class>
+		</classes>
+	</test>
+
+	<test name="Search88">
+		<classes>
+			<class name="search.Search88"></class>
+		</classes>
+	</test>
+
+	<test name="Search79">
+		<classes>
+			<class name="search.Search79"></class>
+		</classes>
+	</test>
+
+	<test name="Search93">
+		<classes>
+			<class name="search.Search93"></class>
+		</classes>
+	</test>
+
+	<test name="Search94">
+		<classes>
+			<class name="search.Search94"></class>
+		</classes>
+	</test>
+
+</suite>
