@@ -9,7 +9,7 @@
 	<name>1p-ui-automation</name>
 
 	<properties>
-		<log4j2.version>2.3</log4j2.version>
+		<log4j2.version>2.13.3</log4j2.version>
 	</properties>
 
 	<dependencies>
